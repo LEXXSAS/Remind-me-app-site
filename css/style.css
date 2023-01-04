@@ -67,7 +67,7 @@ body {
 .menu-closed {
     width: max-content;
     text-align: center;
-    margin-left: auto;
+    margin-left: 200px;
     margin-right: 15px;
 }
 
@@ -208,6 +208,25 @@ margin-bottom: 50px;
 
 .btn-main {
     padding: 24px 58px; 
+}
+
+.upClick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 4px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 55px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #2D76F9;
+    color: #2D76F9;
+    opacity: 0.8;
 }
 
 /* .section-advantages {
@@ -590,6 +609,29 @@ color: #747474;
         padding: 23px 38px;
     }
 
+    .menu-closed {
+        width: max-content;
+        text-align: center;
+        margin-left: auto;
+        margin-right: -110px;
+    }
+    
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        top: 0;
+        bottom: 0;
+    }
+
+    .menu-opened .menu-mobile {
+        left: 50%;
+    }
+
+
+
+
     /* variations 
     .btn-fourth,
     .btn-fourth:hover {
@@ -790,6 +832,32 @@ color: #747474;
     .header {
         padding-top: 25px;
         margin-bottom: 110px;
+    }
+
+    .menu-mobile {
+        align-items: start;
+        position: fixed;
+        width: 100%;
+        top: 100px;
+        bottom: 0;
+        left: 100%;
+        background: #fff;
+        transition: left 0.3s ease-in-out;
+    }
+    
+    .menu-closed {
+        width: max-content;
+        text-align: center;
+        margin-left: 315px;
+        margin-right: -240px;
+    }
+
+    .menu-opened .menu-mobile {
+        left: 0;
+    }
+
+    .upClick {
+        opacity: 0.2;
     }
 
 }

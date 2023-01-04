@@ -26,3 +26,23 @@ function menuActive() {
         }
         this.className += ' active';
     }
+
+
+        let upElement = document.getElementById("upClick");
+        upElement.addEventListener('click', () => {
+    //    window.scrollTo(0, 0);
+        window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+        });
+        });
+
+        window.addEventListener('scroll', scrollFunction);
+            function scrollFunction() {
+            if (window.pageYOffset > 400) {
+                upElement.style.display = "flex";
+            }
+            else {
+                upElement.style.display = "none";
+            }
+        }

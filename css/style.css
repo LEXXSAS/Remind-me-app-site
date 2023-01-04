@@ -861,3 +861,12 @@ color: #747474;
     }
 
 }
+
+@media (max-width: 360px) {
+.menu-closed {
+    width: max-content;
+    text-align: center;
+    margin-left: 285px;
+    margin-right: -240px;
+}
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remind me app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="section main-section">
+        <div class="background">
+            <div class="background-phone"></div>
+        </div>
+        
+        <div class="container">
+            <header class="header row">
+                <div class="col-7">
+                    <div class="logo">
+                        <img src="images/logo_all.svg" alt="logo">
+                        <!-- <span class="logo-text">Remind<span class="logo-important">me</span></span> -->
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-5 text-right">
+                    <button class="btn btn-primary">About App</button>
+                </div>
+            </header>
+        </div>
+
+
+        <div class="main-section-content container">
+            <div class="row">
+            <div class="col">
+                <h1 class="h1">Manage Schedule and Task Easy </h1>
+                <p class="p">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
+                <button class="btn btn-secondary">Download App</button>
+            </div>
+            <div class="col"></div>
+           </div>
+        </div>
+
+
+
+    </section>
+
+
+</body>
+</html>
